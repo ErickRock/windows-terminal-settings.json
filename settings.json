@@ -1,0 +1,140 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        }
+    ],
+    "alwaysShowNotificationIcon": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "initialCols": 108,
+    "initialRows": 24,
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "backgroundImage": "desktopWallpaper",
+            "colorScheme": "Campbell",
+            "font": 
+            {
+                "face": "CaskaydiaCove Nerd Font Mono",
+                "size": 9
+            }
+        },
+        "list": 
+        [
+            {
+                "backgroundImageOpacity": 0.63,
+                "colorScheme": "CyberPunkUmbra",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "PowerShell \u26a1",
+                "opacity": 32,
+                "startingDirectory": "D:\\erick\\Documents\\Repos",
+                "useAcrylic": true
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Prompt de comando"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{b2dbfc6f-740d-58fd-8511-e90be8309c32}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{8633eb60-a3b6-5260-996f-a538667fbd1c}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#100D23",
+            "black": "#272932",
+            "blue": "#00B0FF",
+            "brightBlack": "#7B8097",
+            "brightBlue": "#76C1FF",
+            "brightCyan": "#37EBF3",
+            "brightGreen": "#00FF9C",
+            "brightPurple": "#CB1DCD",
+            "brightRed": "#F02C35",
+            "brightWhite": "#C1DEFF",
+            "brightYellow": "#FFFC4C",
+            "cursorColor": "#FDF500",
+            "cyan": "#00D0DB",
+            "foreground": "#04FF87",
+            "green": "#1AC5B0",
+            "name": "CyberPunkUmbra",
+            "purple": "#742D8B",
+            "red": "#F02C35",
+            "selectionBackground": "#5E35B1",
+            "white": "#D1C5C0",
+            "yellow": "#FDF500"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#000080",
+            "brightBlack": "#808080",
+            "brightBlue": "#0000FF",
+            "brightCyan": "#00FFFF",
+            "brightGreen": "#00FF00",
+            "brightPurple": "#FF00FF",
+            "brightRed": "#FF0000",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF00",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#008080",
+            "foreground": "#C0C0C0",
+            "green": "#008000",
+            "name": "Vintage",
+            "purple": "#800080",
+            "red": "#800000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#C0C0C0",
+            "yellow": "#808000"
+        }
+    ],
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
